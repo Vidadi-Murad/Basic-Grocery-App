@@ -35,9 +35,11 @@ public class App {
         System.out.print("How many kilos of cucumber:");
         cucumberK = scanner.nextDouble();
 
+        // Operations
+
+        lastResult = (apple * aplleK) + (tomato + tomatoK) + (pear + pearK) + (banana * bananaK) + (cucumber * cucumber);
+
         
-
-
         scanner.close();
 
     }
