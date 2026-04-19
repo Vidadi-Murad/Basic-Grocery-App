@@ -2,7 +2,6 @@
 
 // Libraries
 import java.util.Scanner;
-import java.lang.invoke.LambdaMetafactory;
 import java.util.Locale;
 
 public class App {
@@ -10,7 +9,7 @@ public class App {
      
         Scanner scanner = new Scanner(System.in);
         scanner.useLocale(Locale.US); 
-
+   
         
         
 
