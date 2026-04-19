@@ -39,7 +39,11 @@ public class App {
 
         lastResult = (apple * aplleK) + (tomato + tomatoK) + (pear + pearK) + (banana * bananaK) + (cucumber * cucumber);
 
-        
+        // Result
+        System.out.println("---------------------------");
+        System.out.printf("The Price is: %.2f$\n",lastResult);
+        System.out.println("---------------------------");
+
         scanner.close();
 
     }
