@@ -16,12 +16,29 @@ public class App {
         double pear = 2.80;
         double tomato = 9.00;
         double cucumber = 6.80;
+        double aplleK;
+        double bananaK;
+        double pearK;
+        double tomatoK;
+        double cucumberK;
+        double lastResult;
+        
+        // Labels
+        System.out.print("How many kilos of bananas:");
+        bananaK = scanner.nextDouble();
+        System.out.print("How many kilos of apples:");
+        aplleK = scanner.nextDouble();
+        System.out.print("How many kilos of pears:");
+        pearK = scanner.nextDouble();
+        System.out.print("How many kilos of tomato:");
+        tomatoK = scanner.nextDouble();
+        System.out.print("How many kilos of cucumber:");
+        cucumberK = scanner.nextDouble();
 
         
 
-        
-        
 
         scanner.close();
+
     }
 }
